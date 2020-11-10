@@ -1,0 +1,27 @@
+.top-container {
+  padding-top: 70px;
+  background-color: #565656;
+  margin: 0;
+  position: relative;
+}
+
+.heading {
+  padding-left: 10px;
+  font-size: 40px;
+  color: #D8D8D8
+}
+
+.title {
+  padding-left: 15px;
+  margin-right: 10px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #D8D8D8
+}
+
+.covid-graph {
+  float: right;
+  padding-right: 10px;
+  padding-left: 5px;
+  right: 300px;
+}
