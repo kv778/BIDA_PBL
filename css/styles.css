@@ -5,23 +5,65 @@
   position: relative;
 }
 
+.middle-container {
+  background-color: #7B7B7B;
+  position: relative;
+}
+
 .heading {
-  padding-left: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 60px;
+  color: #D8D8D8;
+  text-align: justify;
+}
+
+.heading-two {
+  padding-top: 30px;
+  padding-left: 30px;
   font-size: 40px;
+  color: #D8D8D8;
+  text-align: justify;
+}
+
+.about {
+  padding-left: 35px;
+  margin-right: 10px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 19px;
   color: #D8D8D8
 }
 
-.title {
-  padding-left: 15px;
+.about-two {
+  padding-left: 35px;
   margin-right: 10px;
+  text-align: left;
   font-family: sans-serif;
-  font-size: 25px;
+  font-size: 21px;
   color: #D8D8D8
 }
 
 .covid-graph {
   float: right;
-  padding-right: 10px;
+  padding-right: 20px;
   padding-left: 5px;
   right: 300px;
+}
+
+.ppt {
+  float: right;
+  padding-right: 20px;
+  padding-left: 5px;
+  padding-top: 160px;
+}
+
+.learn-more-link {
+  color: #D8D8D8;
+  text-decoration: none;
+}
+
+.learn-more-link:hover {
+  color: #EAF6F6;
+  text-decoration: none;
 }
