@@ -10,6 +10,10 @@
   position: relative;
 }
 
+.bottom-container {
+  background-color: #666666;
+}
+
 .heading {
   padding-top: 30px;
   padding-left: 30px;
@@ -66,4 +70,18 @@
 .learn-more-link:hover {
   color: #EAF6F6;
   text-decoration: none;
+}
+
+.kv {
+  float: left;
+  margin: 30px;
+}
+
+.an {
+  width: 50%;
+  float: left;
+}
+
+.vk {
+  float: right;
 }
