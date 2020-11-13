@@ -62,12 +62,12 @@
   padding-top: 160px;
 }
 
-.learn-more-link {
+.lnk {
   color: #D8D8D8;
   text-decoration: none;
 }
 
-.learn-more-link:hover {
+.lnk:hover {
   color: #EAF6F6;
   text-decoration: none;
 }
