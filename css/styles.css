@@ -119,3 +119,25 @@ hr {
   font-size: 23px;
   color: #D8D8D8
 }
+
+.team{
+  width: 60%;
+  margin: 20px auto 100px auto;
+  overflow: hidden;
+}
+
+.kv{
+  float: left;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.ad{
+  float: right;
+  margin-left: 30px;
+}
+
+.vk{
+  float: left;
+  margin-right: 30px;
+}
