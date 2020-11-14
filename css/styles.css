@@ -134,7 +134,7 @@ hr {
 
 .kv-social-1 {
   filter: invert(1);
-  margin-left: 200px;
+  margin-left: 220px;
   margin-right: 20px;
 }
 
@@ -150,6 +150,21 @@ hr {
 .ad{
   float: right;
   margin-left: 30px;
+}
+
+.ad-social-1 {
+  filter: invert(1);
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.ad-social-2 {
+  filter: invert(1);
+  margin-right: 20px;
+}
+
+.ad-social-3 {
+  filter: invert(1);
 }
 
 .vk{
