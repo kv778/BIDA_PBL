@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Mulitple Linear Regression</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <div class="lin_reg">
-      <h3 class="heading-three"><strong>Multiple Linear Regression</strong></h3>
-      <hr>
-      <ul style="list-style-type:square">
-        <li><strong>Independent Variables:</strong> Daily recorded cases and daily recovered cases.</li>
-        <li><strong>Dependent Variables:</strong> Daily deaths recorded.</li>
-        <br>
-        <li><strong>The Dataset: </strong></li>
-        <br>
-        <img class="lin-reg-images" src="images/dataset.png" alt="" width="700px" height="400px">
-        <br>
-        <li>The model is created and hosted on RapidMinerGo and can be interacted with over the internet via sending JSON api calls and getting a response in the form of the daily deaths predicted.</li>
-        <br>
-        <li><strong>Training details of the Model:</strong></li>
-        <br>
-        <img class="lin-reg-images" src="images/details.png" alt="" width="700px" height="400px">
-        <br>
-        <li><strong>Statistics of the trained Model:</strong></li>
-        <p>The model has a R^2 value of 0.955 which is considered to be a good value,  and it has a mean squared error of 86.117, which means in cases, the actual value can be +or- 86.</p>
-        <br>
-        <img class="lin-reg-images" src="images/stats.png" alt="" width="700px" height="400px">
-        <br>
-        <li><strong>Plotting Actual vs Predicted Values and Error Distribution of the Model:</strong></li>
-        <br>
-        <img class="lin-reg-images" src="images/predictions-graph.png" alt="" width="700px" height="400px">
-        <br>
-        <li><strong>An example of prediction of daily deaths:</strong></li>
-        <br>
-        <img class="lin-reg-images" src="images/example.png" alt="" width="700px" height="400px">
-        <br>
-        <li><strong>Plotting Daily Confirmed vs Daily Deceased:</strong></li>
-        <br>
-        <img class="lin-reg-images" src="images/dvd.png" alt="" width="700px" height="400px">
-        <br>
-        <br>
-      </ul>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mulitple Linear Regression</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="lin_reg">
+    <h3 class="heading-three"><strong>Multiple Linear Regression</strong></h3>
+    <hr>
+    <ul style="list-style-type:square">
+      <li><strong>Independent Variables:</strong> Daily recorded cases and daily recovered cases.</li>
+      <li><strong>Dependent Variables:</strong> Daily deaths recorded.</li>
       <br>
-    </div>
-  </body>
+      <li><strong>The Dataset: </strong></li>
+      <br>
+      <img class="lin-reg-images" src="images/dataset.png" alt="" width="700px" height="400px">
+      <br>
+      <li>The model is created and hosted on RapidMinerGo and can be interacted with over the internet via sending JSON api calls and getting a response in the form of the daily deaths predicted.</li>
+      <br>
+      <li><strong>Training details of the Model:</strong></li>
+      <br>
+      <img class="lin-reg-images" src="images/details.png" alt="" width="700px" height="400px">
+      <br>
+      <li><strong>Statistics of the trained Model:</strong></li>
+      <p>The model has a R^2 value of 0.955 which is considered to be a good value, and it has a mean squared error of 86.117, which means in cases, the actual value can be +or- 86.</p>
+      <br>
+      <img class="lin-reg-images" src="images/stats.png" alt="" width="700px" height="400px">
+      <br>
+      <li><strong>Plotting Actual vs Predicted Values and Error Distribution of the Model:</strong></li>
+      <br>
+      <img class="lin-reg-images" src="images/predictions-graph.png" alt="" width="700px" height="400px">
+      <br>
+      <li><strong>An example of prediction of daily deaths:</strong></li>
+      <br>
+      <img class="lin-reg-images" src="images/example.png" alt="" width="700px" height="400px">
+      <br>
+      <li><strong>Plotting Daily Confirmed vs Daily Deceased:</strong></li>
+      <br>
+      <img class="lin-reg-images" src="images/dvd.png" alt="" width="700px" height="400px">
+      <br>
+      <br>
+    </ul>
+    <br>
+  </div>
+</body>
+
 </html>
