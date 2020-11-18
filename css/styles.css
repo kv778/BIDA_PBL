@@ -190,3 +190,25 @@ hr {
 .vk-social-3 {
   filter: invert(1);
 }
+
+.lin_reg {
+  background-color: #7B7B7B;
+  padding-left: 35px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #D8D8D8
+}
+
+.heading-three {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 50px;
+  color: #D8D8D8;
+  text-align: justify;
+}
+
+.lin-reg-image {
+  margin: 0 auto;
+  display: block;
+}
