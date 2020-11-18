@@ -108,10 +108,11 @@ html {
 }
 
 hr {
-  border: dotted #D8D8D8 10px;
-  border-bottom: none;
-  width: 15%;
-  margin: 50px auto;
+  border: none;
+  height: 3px;
+  background-color: #D8D8D8;
+  width: 80%;
+  margin: 30px auto;
 }
 
 .infr {

@@ -1,0 +1,4 @@
+  border: dotted #D8D8D8 10px;
+  border-bottom: none;
+  width: 15%;
+  margin: 50px auto;
