@@ -197,7 +197,7 @@ hr {
   text-align: left;
   font-family: sans-serif;
   font-size: 25px;
-  color: #D8D8D8
+  color: #D8D8D8;
 }
 
 .heading-three {
@@ -209,6 +209,20 @@ hr {
 }
 
 .lin-reg-image {
+  margin: 0 auto;
+  display: block;
+}
+
+.sent-ana {
+  background-color: #7B7B7B;
+  padding-left: 35px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #D8D8D8;
+}
+
+.sent-ana-image {
   margin: 0 auto;
   display: block;
 }

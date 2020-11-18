@@ -2,9 +2,34 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <h1>TEST SA</h1>
+    <div class="sent-ana">
+      <h3 class="heading-three"><strong>Sentiment Analysis</strong></h3>
+      <hr>
+      <ul style="list-style-type:square">
+        <li>The data is first scraped from Twitter using the TweePY python script and Twitter Developer credentials using keywords such as "Covid-19 India", "India Covid Lockdown" etc. and specifying the Indian Geolocation to get India based tweets.</li>
+        <br>
+        <img class="sent-ana-image" src="images/tweepy.png" alt="" width="800px" height="450px">
+        <br>
+        <img class="sent-ana-image" src="images/raw-tweets.png" alt="" width="800px" height="450px">
+        <br>
+        <li>After the data has been scraped for ID’s and text of the tweet along with GeoLocations, it is run through another python program, vaderSentiment that is a part of the NLTK library and is used to assign sentiment scores to text.</li>
+        <br>
+        <img class="sent-ana-image" src="images/vader.png" alt="" width="800px" height="450px">
+        <br>
+        <img class="sent-ana-image" src="images/labelled-tweets.png" alt="" width="800px" height="450px">
+        <br>
+        <li>Once sentiment scores are assigned, we can get rid of the text column in the dataset and maintain the tweet ID’s (which can be used to fetch the text again if needed).</li>
+        <br>
+        <li>Then we can perform analysis through visualization in tableau to understand peoples sentiments during various lockdown phases in the country.</li>
+        <br>
+        <br>
+      </ul>
+      <br>
+    </div>
   </body>
 </html>
