@@ -16,15 +16,15 @@
       <li>The data is first scraped from Twitter using the TweePY python script and Twitter Developer credentials using keywords such as "Covid-19 India", "India Covid Lockdown" etc. and specifying the Indian Geolocation to get India based tweets.
       </li>
       <br>
-      <img class="sent-ana-images" src="images/tweepy.png" alt="" width="800px" height="450px">
+      <img class="sent-ana-images" src="images/sentAna/tweepy.png" alt="" width="800px" height="450px">
       <br>
-      <img class="sent-ana-images" src="images/raw-tweets.png" alt="" width="800px" height="450px">
+      <img class="sent-ana-images" src="images/sentAna/raw-tweets.png" alt="" width="800px" height="450px">
       <br>
       <li>After the data has been scraped for ID’s and text of the tweet along with GeoLocations, it is run through another python program, vaderSentiment that is a part of the NLTK library and is used to assign sentiment scores to text.</li>
       <br>
-      <img class="sent-ana-images" src="images/vader.png" alt="" width="800px" height="450px">
+      <img class="sent-ana-images" src="images/sentAna/vader.png" alt="" width="800px" height="450px">
       <br>
-      <img class="sent-ana-images" src="images/labelled-tweets.png" alt="" width="800px" height="450px">
+      <img class="sent-ana-images" src="images/sentAna/labelled-tweets.png" alt="" width="800px" height="450px">
       <br>
       <li>Once sentiment scores are assigned, we can get rid of the text column in the dataset and maintain the tweet ID’s (which can be used to fetch the text again if needed).</li>
       <br>
