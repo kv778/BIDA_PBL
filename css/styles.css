@@ -52,6 +52,15 @@ html {
   color: #D8D8D8
 }
 
+.report {
+  padding-left: 35px;
+  margin-right: 10px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 27px;
+  color: #D8D8D8
+}
+
 .covid-graph {
   float: right;
   margin-top: 10px;
